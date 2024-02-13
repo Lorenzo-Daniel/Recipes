@@ -5,5 +5,13 @@
 }
 .btn{
   border: none !important;
-  border: 1px solid black !important;
+  border: 1px solid #f0f2f3 !important;
+}
+.form-control {
+  box-shadow: none !important;
+  border-color:#dd6f6f ;
+}
+
+.form-control:focus {
+  border-color:#c0bcbc !important ;
 }
