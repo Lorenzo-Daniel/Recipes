@@ -76,18 +76,11 @@ function Home() {
             : "d-none"
         }
       >
-        <div >
-          <p className="fs-5 text-center">
+        <div className="d-flex justify-content-center px-12">
+          <p className="fs-5 ">
             We did not find any results for:
             <span className="bolder ms-1 ">{queryWord}</span>
           </p>
-        </div>
-        <div className="ms-5">
-          <img
-            src="https://i.kym-cdn.com/photos/images/original/001/043/243/419.gif"
-            alt="travolta"
-            className=""
-          />
         </div>
       </div>
 
