@@ -72,17 +72,17 @@ function Home() {
       <div
         className={
           unFoundResults
-            ? "d-flex  align-items-start justify-content-center mt-2 p-3"
+            ? "d-flex flex-column  align-items-center justify-content-center mt-4 mx-5 px-5"
             : "d-none"
         }
       >
-        <div className="col-6 ">
+        <div >
           <p className="fs-5 text-center">
             We did not find any results for:
             <span className="bolder ms-1 ">{queryWord}</span>
           </p>
         </div>
-        <div className="col-6 d-flex justify-content-center align-items-center ">
+        <div className="ms-5">
           <img
             src="https://i.kym-cdn.com/photos/images/original/001/043/243/419.gif"
             alt="travolta"
