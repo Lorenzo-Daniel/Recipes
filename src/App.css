@@ -3,9 +3,13 @@
   padding: 0px;
   font-family: 'Lato', sans-serif;
 }
+
+body{
+  background-color: #fafafa;
+}
 .btn{
   border: none !important;
-  border: 1px solid #f0f2f3 !important;
+  border: 1px solid #95989a !important;
 }
 .form-control {
   box-shadow: none !important;
@@ -15,3 +19,13 @@
 .form-control:focus {
   border-color:#c0bcbc !important ;
 }
+
+.recipe-details-img {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top;
+  object-fit: contain;
+}
+
+

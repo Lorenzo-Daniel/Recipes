@@ -39,9 +39,11 @@ function RecipeDetails() {
   };
 
   return (
-    <div className="d-flex flex-column px-4 mb-5 mt-3">
-      <h1 className="text-center mb-3">{label}</h1>
-      <img src={image} alt={label} />
+    <div className="d-flex flex-column px-4 mb-5 mt-3 col-lg-10 col-xl-7 m-auto">
+      <h1 className="text-center mb-5">{label}</h1>
+      <div className=" recipe-details-img" style={{backgroundImage:`url(${image})`}} >
+      {/* <img src={image} alt={label}   /> */}
+      </div>
       <div className="d-flex mt-3 mb-3" style={{ height: "80px" }}>
         <div className="d-flex align-items-center ">
           <button
@@ -73,7 +75,7 @@ function RecipeDetails() {
           return <li key={index}>{item}</li>;
         })}
       </ul>
-      <Link to={"/"} className="btn">
+      <Link to={"/"} className="btn col-md-5 col-lg-4 col-xl-3">
         BACK
       </Link>
     </div>
