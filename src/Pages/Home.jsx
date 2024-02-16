@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import hat from "../Images/Vector/chef.JPG";
 import { useNavigate } from "react-router-dom";
-import { apiKey, YOUR_APP_ID } from "../API KEY/keys";
+import { apiKey, YOUR_APP_ID } from "../APIKEY/keys";
 
 function Home() {
   const [allData, setAllData] = useState(
