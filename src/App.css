@@ -1,31 +1,33 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-body{
+body {
   background-color: #fafafa;
 }
-.btn{
+
+.btn {
   border: none !important;
   border: 1px solid #95989a !important;
 }
-.form-control {
-  box-shadow: none !important;
-  border-color:#dd6f6f ;
-}
 
-.form-control:focus {
-  border-color:#c0bcbc !important ;
-}
+
 
 .recipe-details-img {
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:top;
+  background-position: top;
   object-fit: contain;
 }
 
+.search-input{
+  padding: 6px;
+  border: 1px solid  #95989a ;
+  border-radius: 3px;
+  outline: none;
+  padding-left: 10px;
+}
 

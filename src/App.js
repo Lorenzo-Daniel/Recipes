@@ -1,8 +1,8 @@
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import RecipeDetails from "./Pages/RecipeDetails";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Home from "./Pages/Home/Home";
+import RecipeDetails from "./Pages/RecipesDetails/RecipeDetails";
 
 
 function App() {
