@@ -92,7 +92,7 @@ function RecipesSearchInput({setAllData}) {
         <div className="d-flex justify-content-center px-12">
           <p className="fs-5 ">
             We did not find any results for:
-            <span className="bolder ms-1 ">{queryWord}</span>
+            <span className="bolder ms-1 ">'{queryWord}'</span>
           </p>
         </div>
       </div>
