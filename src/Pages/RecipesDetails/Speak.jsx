@@ -46,7 +46,7 @@ const  Speak =({ingredients})=> {
           height="80"
           allowFullScreen
           className={
-            isFinished || !isPlaying ? "d-none  " : "d-block rounded-5"
+            isFinished || !isPlaying ? "d-none  " : "d-block rounded-5 no-pointer"
           }
           title="Animated Gif"
         ></iframe>

@@ -2,10 +2,13 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function RecipesResults({ allData }) {
+  
   const goToDetails = (name) => {
     navigate(`/recipes-details/${name}`);
   };
+
   const navigate = useNavigate();
+
   return (
     <div className="d-flex flex-wrap justify-content-center align-items-center gap-4  mt-4">
       {allData?.map((item, index) => {

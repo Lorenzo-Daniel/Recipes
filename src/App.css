@@ -31,3 +31,7 @@ body {
   padding-left: 10px;
 }
 
+.no-pointer {
+  pointer-events: none; 
+  cursor: default; 
+}

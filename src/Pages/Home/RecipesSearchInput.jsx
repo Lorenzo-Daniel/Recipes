@@ -57,8 +57,8 @@ function RecipesSearchInput({setAllData}) {
 
   return (
     <div>
-      <div className="d-flex justify-content-center mt-3">
-        <img src={hat} alt="" width={300} />
+      <div className="d-flex justify-content-center mt-3 mt-md-5">
+        <img src={hat} alt="" width={400} />
       </div>
 
       <h1 className="text-center mt-4">Search Your Recipe</h1>
